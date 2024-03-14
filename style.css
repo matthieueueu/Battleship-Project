@@ -3,7 +3,7 @@ h1{
     align-items: center;
     justify-content: center;
 
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 body{
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c6/Fleet_5_nations.jpg');
@@ -27,11 +27,17 @@ table{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
 }
 
 .empty{
     background-color: grey;
     border-style: none;
 
+}
+
+td{
+    height: 1.35cm;
+}
+td:hover{
+    cursor: pointer;
 }
