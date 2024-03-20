@@ -13,7 +13,7 @@
     <div class="tablePosition">
         <table>
             <tr>
-                <th class="empty"></th>
+                <th id="empty"></th>
                 <th>1</th>
                 <th>2</th>
                 <th>3</th>
@@ -25,84 +25,87 @@
             </tr>
             <tr>
                 <th>A</th>
-                <td onclick="checkHit(0,0)"></td>
-                <td onclick="checkHit(1,0)"></td>
-                <td onclick="checkHit(2,0)"></td>
-                <td onclick="checkHit(3,0)"></td>
-                <td onclick="checkHit(4,0)"></td>
-                <td onclick="checkHit(5,0)"></td>
-                <td onclick="checkHit(6,0)"></td>
-                <td onclick="checkHit(7,0)"></td>
+
+                <td id="matrix00" onclick="checkHit(0,0)"></td>
+                <td id="matrix01" onclick="checkHit(1,0)"></td>
+                <td id="matrix02" onclick="checkHit(2,0)"></td>
+                <td id="matrix03" onclick="checkHit(3,0)"></td>
+                <td onclick="checkHit(4,0)" id="matrix04"</td>
+                <td onclick="checkHit(5,0)" id="matrix05"></td>
+                <td onclick="checkHit(6,0)" id="matrix06"></td>
+                <td onclick="checkHit(7,0)" id="matrix07"></td>
             </tr>
             <tr>
                 <th>B</th>
-                <td onclick="checkHit(0,1)"></td>
-                <td onclick="checkHit(1,1)"></td>
-                <td onclick="checkHit(2,1)"></td>
-                <td onclick="checkHit(3,1)"></td>
-                <td onclick="checkHit(4,1)"></td>
-                <td onclick="checkHit(5,1)"></td>
-                <td onclick="checkHit(6,1)"></td>
-                <td onclick="checkHit(7,1)"></td>
+
+                <td onclick="checkHit(0,1)" id="matrix10"></td>
+                <td onclick="checkHit(1,1)" id="matrix11"></td>
+                <td onclick="checkHit(2,1)" id="matrix12"></td>
+                <td onclick="checkHit(3,1)" id="matrix13"></td>
+                <td onclick="checkHit(4,1)" id="matrix14"></td>
+                <td onclick="checkHit(5,1)" id="matrix15"></td>
+                <td onclick="checkHit(6,1)" id="matrix16"></td>
+                <td onclick="checkHit(7,1)" id="matrix17"></td>
             </tr>
             <tr>
                 <th>C</th>
-                <td onclick="checkHit(0,2)"></td>
-                <td onclick="checkHit(1,2)"></td>
-                <td onclick="checkHit(2,2)"></td>
-                <td onclick="checkHit(3,2)"></td>
-                <td onclick="checkHit(4,2)"></td>
-                <td onclick="checkHit(5,2)"></td>
-                <td onclick="checkHit(6,2)"></td>
-                <td onclick="checkHit(7,2)"></td>
+
+                <td onclick="checkHit(0,2)" id="matrix20"></td>
+                <td onclick="checkHit(1,2)" id="matrix21"></td>
+                <td onclick="checkHit(2,2)" id="matrix22"></td>
+                <td onclick="checkHit(3,2)" id="matrix23"></td>
+                <td onclick="checkHit(4,2)" id="matrix24"></td>
+                <td onclick="checkHit(5,2)" id="matrix25"></td>
+                <td onclick="checkHit(6,2)" id="matrix26"></td>
+                <td onclick="checkHit(7,2)" id="matrix27"></td>
             </tr>
             <tr>
                 <th>D</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+
+                <td onclick="checkHit(0,3)" id="matrix30"></td>
+                <td onclick="checkHit(1,3)" id="matrix31"></td>
+                <td onclick="checkHit(2,3)" id="matrix32"></td>
+                <td onclick="checkHit(3,3)" id="matrix33"></td>
+                <td onclick="checkHit(4,3)" id="matrix34"></td>
+                <td onclick="checkHit(5,3)" id="matrix35"></td>
+                <td onclick="checkHit(6,3)" id="matrix36"></td>
+                <td onclick="checkHit(7,3)" id="matrix37"></td>
             </tr>
             <tr>
                 <th>E</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td onclick="checkHit(0,4)" id="matrix40"></td>
+                <td onclick="checkHit(1,4)" id="matrix41"></td>
+                <td onclick="checkHit(2,4)" id="matrix42"></td>
+                <td onclick="checkHit(3,4)" id="matrix43"></td>
+                <td onclick="checkHit(4,4)" id="matrix44"></td>
+                <td onclick="checkHit(5,4)" id="matrix45"></td>
+                <td onclick="checkHit(6,4)" id="matrix46"></td>
+                <td onclick="checkHit(7,4)" id="matrix47"></td>
             </tr>
             <tr>
                 <th>F</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td onclick="checkHit(0,5)" id="matrix50"></td>
+                <td onclick="checkHit(1,5)" id="matrix51"></td>
+                <td onclick="checkHit(2,5)" id="matrix52"></td>
+                <td onclick="checkHit(3,5)" id="matrix53"></td>
+                <td onclick="checkHit(4,5)" id="matrix54"></td>
+                <td onclick="checkHit(5,5)" id="matrix55"></td>
+                <td onclick="checkHit(6,5)" id="matrix56"></td>
+                <td onclick="checkHit(7,5)" id="matrix57"></td>
             </tr>
             <tr>
                 <th>G</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td onclick="checkHit(0,6)" id="matrix60"></td>
+                <td onclick="checkHit(1,6)" id="matrix61"></td>
+                <td onclick="checkHit(2,6)" id="matrix62"></td>
+                <td onclick="checkHit(3,6)" id="matrix63"></td>
+                <td onclick="checkHit(4,6)" id="matrix64"></td>
+                <td onclick="checkHit(5,6)" id="matrix65"></td>
+                <td onclick="checkHit(6,6)" id="matrix66"></td>
+                <td onclick="checkHit(7,6)" id="matrix67"></td>
             </tr>
         </table>
     </div>
-
 
     <script src="script.js"></script>
 </body>
