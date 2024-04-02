@@ -40,7 +40,55 @@ tr,td,th{
 td{
     width: 50px;   
     height:50px;
+    text-align: center;
 }
+@keyframes buttonHoverColor {
+    0%{
+        background-color: rebeccapurple;
+    }
+    100%{
+        background-color: slateblue
+    }
+}
+
+
 td:hover{
     cursor: pointer;
+    animation: buttonHoverColor 0.5s ease;
+    
+    transform: translate(1px,-5px);
+    transition: transform 0.5s ease;
+    background-color: slateblue;
+}
+
+
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-size: large;
+    font-family: cursive;
+    
+    transform: translate(1px,-5px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.holder{
+    color:hotpink;
+    font-size: large;
+
+    background-color: whitesmoke;
+    
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
